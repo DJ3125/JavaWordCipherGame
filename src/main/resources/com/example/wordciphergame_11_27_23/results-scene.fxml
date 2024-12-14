@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wordciphergame_11_27_23.ResultsSceneController">
+   <children>
+      <Canvas fx:id="resultsCanvas" height="275.0" layoutX="14.0" layoutY="61.0" width="575.0" />
+      <Label layoutX="256.0" layoutY="14.0" text="Results">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="proceedButton" layoutX="251.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#handleProceed" prefHeight="40.0" prefWidth="101.0" text="Proceed" />
+   </children>
+</AnchorPane>
